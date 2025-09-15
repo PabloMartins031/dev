@@ -1,0 +1,109 @@
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .image {
+    display: none; /* remove a imagem em tablets */
+  }
+
+  .formulario {
+    max-width: 95%;
+    margin: 30px auto 0 auto;
+    padding: 20px 10px;
+    align-items: center;
+  }
+
+  .formulario input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .btn-cadastro {
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
+  }
+
+  .formulario h1 {
+    margin-right: 0;
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  .image {
+    display: none; /* remove a imagem em celulares */
+  }
+
+  .formulario {
+    max-width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 10px 5px;
+    align-items: center;
+  }
+
+  .formulario input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .btn-cadastro {
+    width: 100%;
+    max-width: 200px;
+    font-size: 15px;
+  }
+
+  .formulario h1 {
+    margin-right: 0;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .ou {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .botoes-redes-socias img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Pequenos celulares (até 480px) */
+@media (max-width: 480px) {
+  .formulario {
+    padding: 5px 2px;
+  }
+
+  .formulario input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn-cadastro {
+    font-size: 14px;
+    padding: 8px;
+    max-width: 150px;
+  }
+
+  .formulario h1 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <header>
+            <a href="#">
+                <span class="logo-in">IN</span>
+            <span class="logo-text">INFINITY SCHOOL</span>
+        </a>
+    </header>
+</div>
+
+<div class="container">
+    <div class="image">
+        <!-- <img src="../Imagens/cadastre-se.png" alt="Tela de cadastro"> -->
+    </div>
+    
+        <div class="formulario">
+            <h1>Cadastre-se</h1>
+            <form>
+                <label for="nome">Digite seu nome</label><br>
+                <input id="nome" name="nome" type="text"><br><br>
+
+                <label for="cpf">Digite seu cpf</label><br>
+                <input id="cpf" name="cpf" type="text"><br><br>
+
+                <label for="email">Digite seu e-mail</label><br>
+                <input id="email" name="email" type="email"><br><br>
+
+                <div class="input-olho">
+                <label for="senha">Sua senha</label><br>
+                <input id="senha" name="senha" type="password">
+                <!-- <img src="../Icones/olhofechado.png" alt="Mostrar Senha" class="olhinho"> -->
+                </div><br><br>
+                
+                <div class="input-olho"></div>
+                <label for="confirmarSenha">Confirmar Senha</label><br>
+                <input id="confirmarSenha" name="ConfirmarSenha" type="password">
+                <!-- <img src="../Icones/olhofechado.png" alt="Mostrar Senha" class="olhinho"> -->
+            </div><br><br>
+            
+                <button id="btn_cadastro" onclick="cadastro()" class="btn-cadastro">Cadastre-se</button>
+            </form>
+
+            <div class="separador">
+                <span class="ou">ou</span>
+            </div>
+            
+            
+            <div class="botoes-redes-socias">
+                <!-- <a id="btn_google" href="#"><img src="../Icones/search.png" alt="Entrar com Google"></a> -->
+                <!-- <a id="btn_apple" href="#"><img src="../Icones/apple-logo.png" alt="Entrar com Apple"></a> -->
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

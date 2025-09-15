@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="responsivo_login.css">
+</head>
+<body>
+    <div class="logo">
+        <header>
+            <a href="#">
+                <span class="logo-in">IN</span>
+                <span class="logo-text">INFINITY SCHOOL</span>
+            </a>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <!-- <img src="../Imagens/login.png" alt="Tela de cadastro"> -->
+        </div>
+
+        <div class="formulario">
+            <h1>Conecte-se</h1>
+            <form>
+                <label for="email">E-mail:</label><br>
+                <input id="email" name="email" type="email"><br><br>
+
+
+                <label for="senha">Senha:</label><br>
+                <div class="input-olho">
+                    <input id="senha" name="senha" type="password">
+                    <img src="../Icones/olhofechado.png" alt="Mostrar senha" class="olhinho">
+                </div><br><br>
+
+                <div class="esqueceu-cadastro">
+                    <a href="#">Esqueceu a Senha ?</a>
+                    <a href="#">Cadastre-se</a>
+                </div>
+                
+                <br><br>
+                <button type="button" onclick="login()" class="btn-cadastro">Login</button>
+            </form>
+            
+            <div class="separador">
+                <span class="ou">ou</span>
+            </div>
+
+
+            <div class="botoes-redes-socias">
+                <!-- <a href="#"><img src="../Icones/search.png" alt="Entrar com Google"></a> -->
+                <!-- <a href="#"><img src="../Icones/apple-logo.png" alt="Entrar com Apple"></a> -->
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        
+    </footer>
+    <script src="login.js" defer></script>
+</body>
+</html>
